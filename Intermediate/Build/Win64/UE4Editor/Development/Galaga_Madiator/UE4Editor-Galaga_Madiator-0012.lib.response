@@ -1,0 +1,27 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Galaga_Madiator-0012.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\Galaga_MadiatorEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Escuadron.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Galaga_Madiator.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Galaga_MadiatorGameMode.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Galaga_MadiatorPawn.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Galaga_MadiatorProjectile.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\IMediator.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\MediatorConcreto.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Torre.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Escuadron.gen.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Galaga_Madiator.init.gen.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Galaga_MadiatorGameMode.gen.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Galaga_MadiatorPawn.gen.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Galaga_MadiatorProjectile.gen.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\IMediator.gen.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\MediatorConcreto.gen.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Torre.gen.cpp.obj"
+"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Default.rc2.res"
+/OUT:"C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\UE4Editor-Galaga_Madiator-0012.lib"

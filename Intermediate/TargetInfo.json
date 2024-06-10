@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Galaga_Madiator",
+			"Path": "C:\\Users\\manjo\\Desktop\\TERCER SEMESTRE\\PROGRAMACION AVANZADA\\Patron_State\\Galaga_Madiator\\Source\\Galaga_Madiator.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Galaga_MadiatorEditor",
+			"Path": "C:\\Users\\manjo\\Desktop\\TERCER SEMESTRE\\PROGRAMACION AVANZADA\\Patron_State\\Galaga_Madiator\\Source\\Galaga_MadiatorEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

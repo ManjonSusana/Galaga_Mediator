@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Galaga_Madiator.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{416747A3-70A9-4759-9DB6-CCAF21D90413}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Galaga_Madiator.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Galaga_MadiatorEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7D2FFB35-FA37-43A7-A8ED-CF098D83DC31}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Galaga_Madiator">
+      <UniqueIdentifier>{367DF46F-AF27-4377-808A-D42F1E27B015}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Galaga_Madiator\Escuadron.cpp">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Madiator\Escuadron.h">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Galaga_Madiator\Galaga_Madiator.Build.cs">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Galaga_Madiator\Galaga_Madiator.cpp">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Madiator\Galaga_Madiator.h">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_Madiator\Galaga_MadiatorGameMode.cpp">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Madiator\Galaga_MadiatorGameMode.h">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_Madiator\Galaga_MadiatorPawn.cpp">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Madiator\Galaga_MadiatorPawn.h">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_Madiator\Galaga_MadiatorProjectile.cpp">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Madiator\Galaga_MadiatorProjectile.h">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_Madiator\IMediator.cpp">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Madiator\IMediator.h">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_Madiator\MediatorConcreto.cpp">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Madiator\MediatorConcreto.h">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_Madiator\Torre.cpp">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Madiator\Torre.h">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
