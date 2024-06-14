@@ -38,5 +38,6 @@ public:
 
 	FORCEINLINE void SetDanio(int _danio) { danio = _danio; }
 	FORCEINLINE int GetDanio() { return danio; }
+	class ATorre* Torre;
 };
 

@@ -60,12 +60,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMediatorConcreto)
 
 
-#define Galaga_Madiator_Source_Galaga_Madiator_MediatorConcreto_h_11_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__jugador() { return STRUCT_OFFSET(AMediatorConcreto, jugador); } \
-	FORCEINLINE static uint32 __PPO__escuadron() { return STRUCT_OFFSET(AMediatorConcreto, escuadron); } \
-	FORCEINLINE static uint32 __PPO__torre() { return STRUCT_OFFSET(AMediatorConcreto, torre); }
-
-
+#define Galaga_Madiator_Source_Galaga_Madiator_MediatorConcreto_h_11_PRIVATE_PROPERTY_OFFSET
 #define Galaga_Madiator_Source_Galaga_Madiator_MediatorConcreto_h_8_PROLOG
 #define Galaga_Madiator_Source_Galaga_Madiator_MediatorConcreto_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

@@ -23,24 +23,19 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-	//declaracion de variables
-	UPROPERTY(VisibleAnywhere, Category = "Mediador Pawn")
-
+	//declaraciones
 	class AGalaga_MadiatorPawn* jugador;
-
-	UPROPERTY(VisibleAnywhere, Category = "Mediador Escuadron")
-
 	class AEscuadron* escuadron;
-
-	UPROPERTY(VisibleAnywhere, Category = "Mediador Torre")
-
 	class ATorre* torre;
+	class ADefensasTorre* generador;
 
+
+	//class AActor* Actor;
 public:
-	TArray<AActor*> escuadrones;
+	//TArray<AActor*> escuadrones;
 	TArray<AActor*> escuadronesp;
 
-	void Inicializar(AGalaga_MadiatorPawn* _Jugador, AEscuadron* _Escuadron, ATorre* _Torre);
+	void Inicializar(AGalaga_MadiatorPawn* _Jugador, AEscuadron* _Escuadron, ATorre* _Torre, ADefensasTorre* _Generador);
 	void Notificar(AActor* _enviar, const FString& _evento) override;
 
 };

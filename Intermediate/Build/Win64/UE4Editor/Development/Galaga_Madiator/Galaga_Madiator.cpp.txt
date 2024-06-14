@@ -1,0 +1,2 @@
+C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Madiator\Definitions.Galaga_Madiator.h
+C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Source\Galaga_Madiator\Galaga_Madiator.h

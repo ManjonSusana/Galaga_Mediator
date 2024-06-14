@@ -14,11 +14,11 @@ AEscuadron::AEscuadron()
 	mallaEscuadron->SetupAttachment(RootComponent);
 	RootComponent = mallaEscuadron;
 
-	velocidadEscuadron = 10.0f;
+	velocidadEscuadron = 8.0f;
 
 	// Weapon
 	GunOffset = FVector(90.f, 0.f, 0.f);
-	FireRate = 0.1f;
+	FireRate = 5.0f;
 	bCanFire = true;
 }
 
@@ -34,7 +34,7 @@ void AEscuadron::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (moverse) {
+	
 		//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Yellow, FString::Printf(TEXT("ESCUADRON MOVIENDOSEE")));
 
 		SetActorLocation(FVector(GetActorLocation().X, GetActorLocation().Y - velocidadEscuadron, GetActorLocation().Z));
@@ -43,32 +43,17 @@ void AEscuadron::Tick(float DeltaTime)
 		{
 			SetActorLocation(FVector(GetActorLocation().X, 1000, GetActorLocation().Z));
 		}
-	}
-
+	
 
 }
-
 void AEscuadron::EstablecerMediator(IIMediator* _Mediator)
 {
 		Mediator = _Mediator;
 }
 
-void AEscuadron::MandarRefuerzos()
-{
-	GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Purple, FString::Printf(TEXT("Escuadron dando refuerzos")));
-	if (Mediator) {
-		Mediator->Notificar(this, "Defender");
-	}
-	
-
-	moverse = true;
-
-}
-
-
 void AEscuadron::Disparar()
 {
-	//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Black, FString::Printf(TEXT("Escuadron disparando")));
+	GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Black, FString::Printf(TEXT("Escuadron disparando")));
 	const FRotator FireRotation = FRotator(0.0f, 180.0f, 0.0f);
 	
 

@@ -62,6 +62,7 @@ public: \
 	FORCEINLINE static uint32 __PPO__Jugador() { return STRUCT_OFFSET(AGalaga_MadiatorGameMode, Jugador); } \
 	FORCEINLINE static uint32 __PPO__Escuadron() { return STRUCT_OFFSET(AGalaga_MadiatorGameMode, Escuadron); } \
 	FORCEINLINE static uint32 __PPO__Torre() { return STRUCT_OFFSET(AGalaga_MadiatorGameMode, Torre); } \
+	FORCEINLINE static uint32 __PPO__Generador() { return STRUCT_OFFSET(AGalaga_MadiatorGameMode, Generador); } \
 	FORCEINLINE static uint32 __PPO__Mediator() { return STRUCT_OFFSET(AGalaga_MadiatorGameMode, Mediator); }
 
 

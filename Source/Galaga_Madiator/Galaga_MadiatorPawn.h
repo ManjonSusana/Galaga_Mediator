@@ -58,7 +58,6 @@ public:
 	static const FName MoveRightBinding;
 	static const FName FireForwardBinding;
 	static const FName FireRightBinding;
-
 private:
 
 	/* Flag to control firing  */
@@ -79,8 +78,9 @@ public:
 	class IIMediator* Mediator;
 public:
 	void EstablecerMediator(IIMediator* _Mediador);
-
 	void Atacar();
-
+	bool AtacarTorre = false;
+	class ATorre* torre;
+	class AGalaga_MadiatorProjectile* pro;
 };
 

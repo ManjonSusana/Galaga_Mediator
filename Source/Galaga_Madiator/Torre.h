@@ -20,7 +20,7 @@ public:
 	float Direccion; // 1 para derecha, -1 para izquierda
 	float LimiteDerecha;
 	float LimiteIzquierda;
-
+	int i;
 	FORCEINLINE int GetVidaTorre() const { return vidaTorre; }
 	FORCEINLINE void SetVidaTorre(int _vidaTorre) { vidaTorre = _vidaTorre; }
 
@@ -40,8 +40,9 @@ private:
 	class IIMediator* Mediator;
 public:
 	void EstablecerMediator(class IIMediator* _Mediator);
-	void Mover();
 	void PedirRefuerzos();
+
+	void Mover();
 	void RestarVidaTorre(int danio);
 
 	

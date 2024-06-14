@@ -21,6 +21,8 @@ C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga
 C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Source\Galaga_Madiator\IMediator.h
 C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_Madiator\IMediator.generated.h
 C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_Madiator\MediatorConcreto.generated.h
+C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Source\Galaga_Madiator\DefensasTorre.h
+C:\Users\manjo\Desktop\TERCER SEMESTRE\PROGRAMACION AVANZADA\Patron_State\Galaga_Madiator\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_Madiator\DefensasTorre.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h

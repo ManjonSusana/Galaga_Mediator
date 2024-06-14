@@ -34,8 +34,6 @@ private:
 	class IIMediator* Mediator;
 public:
 	void EstablecerMediator(class IIMediator* _Mediator);
-
-	void MandarRefuerzos();
 	void Disparar();
 
 public:

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Galaga_Madiator.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{416747A3-70A9-4759-9DB6-CCAF21D90413}</UniqueIdentifier>
+      <UniqueIdentifier>{CB75AEA6-6F28-4105-AB08-78684DDFFBFB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Galaga_Madiator.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\Galaga_MadiatorEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{7D2FFB35-FA37-43A7-A8ED-CF098D83DC31}</UniqueIdentifier>
+      <UniqueIdentifier>{AA0623A6-9FC4-46B1-AF26-A4E7EA471240}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +32,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Galaga_Madiator">
-      <UniqueIdentifier>{367DF46F-AF27-4377-808A-D42F1E27B015}</UniqueIdentifier>
+      <UniqueIdentifier>{2E12D852-3A12-4142-B167-7567D91B64F5}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Galaga_Madiator\DefensasTorre.cpp">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Madiator\DefensasTorre.h">
+      <Filter>Source\Galaga_Madiator</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Galaga_Madiator\Escuadron.cpp">
       <Filter>Source\Galaga_Madiator</Filter>
     </ClCompile>

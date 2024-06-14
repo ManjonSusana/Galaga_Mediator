@@ -1,5 +1,7 @@
 #include "Torre.h"
 #include "Galaga_MadiatorProjectile.h"
+#include "Galaga_MadiatorPawn.h"
+#include "Kismet/GameplayStatics.h"
 #include "IMediator.h"
 
 
@@ -21,10 +23,12 @@ ATorre::ATorre()
 
 	vidaTorre = 50;
 	// Inicializar variables de movimiento
-	velocidadTorre = 10;
+	velocidadTorre = 5;
 	Direccion = 1.0f; // Comienza moviéndose hacia la derecha
 	LimiteDerecha = 1600.0f;
 	LimiteIzquierda = 100.0f;
+
+	i=0;
 }
 
 // Called when the game starts or when spawned
@@ -51,10 +55,11 @@ void ATorre::Tick(float DeltaTime)
 		}
 	}
 
-	if (GetVidaTorre() <= 20) {
+	if (GetVidaTorre() <= 30) {
 		
 		Mover();
-		PedirRefuerzos();	
+		//PedirRefuerzos();	
+
 		if (GetVidaTorre() <= 10) {
 			moverse = false;
 		}
@@ -97,7 +102,11 @@ void ATorre::RestarVidaTorre(int danio)
 			Destroy();
 		}
 	
-	
+		AGalaga_MadiatorPawn* Pawn = Cast<AGalaga_MadiatorPawn>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+		if (Pawn)
+		{
+			Pawn->Atacar();
+		}
 
 }
 

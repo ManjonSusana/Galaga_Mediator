@@ -99,7 +99,8 @@ void AGalaga_MadiatorPawn::Tick(float DeltaSeconds)
 	// Try and fire a shot
 	FireShot(FireDirection);
 
-
+	
+	
 }
 
 void AGalaga_MadiatorPawn::FireShot(FVector FireDirection)
@@ -118,7 +119,9 @@ void AGalaga_MadiatorPawn::FireShot(FVector FireDirection)
 			if (World != nullptr)
 			{
 				// spawn the projectile
-				World->SpawnActor<AGalaga_MadiatorProjectile>(SpawnLocation, FireRotation);
+				pro = World->SpawnActor<AGalaga_MadiatorProjectile>(SpawnLocation, FireRotation);
+				pro-> SetOwner(this);
+				
 			}
 
 			bCanFire = false;
@@ -132,7 +135,7 @@ void AGalaga_MadiatorPawn::FireShot(FVector FireDirection)
 
 			bCanFire = false;
 
-			Atacar();
+			//Atacar();
 		}
 	}
 	
@@ -151,10 +154,9 @@ void AGalaga_MadiatorPawn::EstablecerMediator(IIMediator* _Mediador)
 
 void AGalaga_MadiatorPawn::Atacar()
 {
+
 	if(Mediator)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Yellow, FString::Printf(TEXT("Si hay mediador")));
-
 		Mediator->Notificar(this, "Atacar");
 	}
 	else {

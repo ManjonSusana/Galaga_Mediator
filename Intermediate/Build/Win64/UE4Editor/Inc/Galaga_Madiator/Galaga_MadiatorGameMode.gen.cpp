@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeGalaga_MadiatorGameMode() {}
 	GALAGA_MADIATOR_API UClass* Z_Construct_UClass_AGalaga_MadiatorPawn_NoRegister();
 	GALAGA_MADIATOR_API UClass* Z_Construct_UClass_AEscuadron_NoRegister();
 	GALAGA_MADIATOR_API UClass* Z_Construct_UClass_ATorre_NoRegister();
+	GALAGA_MADIATOR_API UClass* Z_Construct_UClass_ADefensasTorre_NoRegister();
 	GALAGA_MADIATOR_API UClass* Z_Construct_UClass_AMediatorConcreto_NoRegister();
 // End Cross Module References
 	void AGalaga_MadiatorGameMode::StaticRegisterNativesAGalaga_MadiatorGameMode()
@@ -47,6 +48,10 @@ void EmptyLinkFunctionForGeneratedCodeGalaga_MadiatorGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Torre_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Torre;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Generador_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Generador;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mediator_MetaData[];
 #endif
@@ -89,6 +94,13 @@ void EmptyLinkFunctionForGeneratedCodeGalaga_MadiatorGameMode() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Torre = { "Torre", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGalaga_MadiatorGameMode, Torre), Z_Construct_UClass_ATorre_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Torre_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Torre_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Generador_MetaData[] = {
+		{ "Category", "GameMode Generador" },
+		{ "ModuleRelativePath", "Galaga_MadiatorGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Generador = { "Generador", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGalaga_MadiatorGameMode, Generador), Z_Construct_UClass_ADefensasTorre_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Generador_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Generador_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Mediator_MetaData[] = {
 		{ "Category", "GameMode Mediator" },
 		{ "ModuleRelativePath", "Galaga_MadiatorGameMode.h" },
@@ -99,6 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeGalaga_MadiatorGameMode() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Jugador,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Escuadron,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Torre,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Generador,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::NewProp_Mediator,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGalaga_MadiatorGameMode_Statics::StaticCppClassTypeInfo = {
@@ -128,7 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeGalaga_MadiatorGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGalaga_MadiatorGameMode, 394830989);
+	IMPLEMENT_CLASS(AGalaga_MadiatorGameMode, 3023221609);
 	template<> GALAGA_MADIATOR_API UClass* StaticClass<AGalaga_MadiatorGameMode>()
 	{
 		return AGalaga_MadiatorGameMode::StaticClass();

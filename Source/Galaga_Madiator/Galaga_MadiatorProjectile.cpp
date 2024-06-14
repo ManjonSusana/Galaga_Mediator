@@ -11,7 +11,7 @@
 AGalaga_MadiatorProjectile::AGalaga_MadiatorProjectile() 
 {
 	// Static reference to the mesh to use for the projectile
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> ProjectileMeshAsset(TEXT("/Game/TwinStick/Meshes/TwinStickProjectile.TwinStickProjectile"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> ProjectileMeshAsset(TEXT("StaticMesh'/Game/TwinStick/Meshes/TwinStickProjectile1.TwinStickProjectile1'"));
 
 	// Create mesh component for the projectile sphere
 	ProjectileMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ProjectileMesh0"));
@@ -38,7 +38,7 @@ AGalaga_MadiatorProjectile::AGalaga_MadiatorProjectile()
 void AGalaga_MadiatorProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 
-	ATorre* Torre = Cast<ATorre>(OtherActor);
+	Torre = Cast<ATorre>(OtherActor);
 	if (Torre)
 	{
 		GEngine -> AddOnScreenDebugMessage(-1, 10.f, FColor::Red, FString::Printf(TEXT("Torre ha sido impactada")));

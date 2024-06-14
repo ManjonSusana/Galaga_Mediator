@@ -36,6 +36,9 @@ private:
 
 	class ATorre* Torre;
 
+	UPROPERTY(VisibleAnywhere, Category = "GameMode Generador")
+
+	class ADefensasTorre* Generador;
 	UPROPERTY(VisibleAnywhere, Category = "GameMode Mediator")
 	class AMediatorConcreto* Mediator;
 };
